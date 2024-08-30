@@ -23,7 +23,7 @@ deployments:
       name: gpt-4o
       version: "2024-05-13"
     sku:
-      name: "Standard"
+      name: "GlobalStandard"
       capacity: 20
   - name: gpt-4-evals
     model:
@@ -31,5 +31,5 @@ deployments:
       name: gpt-4o
       version: "2024-05-13"
     sku:
-      name: "Standard"
+      name: "GlobalStandard"
       capacity: 40
